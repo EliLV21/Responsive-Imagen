@@ -1,0 +1,29 @@
+*{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  text-align: center;
+}
+body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-left: 4%;
+
+}
+.container{
+  width: 80%;
+}
+.imagen{
+  display: flex;
+  width: 100%;
+}
+.texto{
+  top: 30%;
+  font-size: 60px;
+  z-index: 1;
+  color: #000;
+}
